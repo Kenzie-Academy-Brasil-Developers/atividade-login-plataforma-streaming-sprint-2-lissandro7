@@ -46,13 +46,18 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
-	
+	background-image: url(/img/background-image.jpg);
+    
 }
 /* BODY */
 
 
 /* HEADER */
 header{
+    width: 150px;
+    height: 100px;
+    margin: 13px;
+    padding: 13px;
 	
 }
 /* HEADER */
@@ -65,7 +70,18 @@ footer{}
 
 /* PÁGINA INICIAL */
 main{
-	
+    
+}
+.dividir{
+    bottom:70px;
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background-color: black;
+    padding: 60px 68px 40px;
+    opacity: 0.9;
+    margin-left: 390px;
+    border-radius: 6px;
 }
 /* PÁGINA INICIAL */
 
@@ -73,3 +89,109 @@ main{
 /* EXTRAS */
 
 /* EXTRAS */
+.menu{
+    width: 314px;
+    height: 344px;
+    position: relative;
+    left: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.entrar{
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.email{
+    border: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 100px;
+    margin-left:15px ;
+    background-color:#333;
+    color: #8c8c8c;
+    border-radius: 6px;
+}
+
+.senha{
+    color: #8c8c8c;
+    border: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 170px;
+    margin-left:15px ;
+    background-color: #333;
+    border-radius: 6px;
+
+}
+
+
+
+.cadastrar{
+    border: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 280px;
+    margin-left:15px ;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 6px;
+}
+.lembra{
+        
+       
+        position: relative;
+        top: 330px;
+        
+
+}
+
+label{
+    color: #595959;
+    
+
+}
+.link{
+    position: relative;
+    top: 293px;
+    float: right;
+    color:#595959;
+}
+.facebook{
+    position: relative;
+    color:rgb(37, 37, 241);
+    top: 40px;
+}
+.facebook a{
+    color:#595959;
+}
+.assine{
+    color: #595959;
+    font-size: 16px;
+    
+    position: relative;
+    top:380px;
+}
+.assine link{
+    text-decoration: none;
+}
+span{
+    color:#595959;
+    position: relative;
+    top:400px;
+    
+}
+
+.saiba{
+    display: inline;
+    color: #595959;
+}
